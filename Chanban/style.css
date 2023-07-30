@@ -1,6 +1,11 @@
 *{
     font-family: sans-serif;
     color: white;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 body{
@@ -12,9 +17,33 @@ body{
     background: linear-gradient(to right, #bf4342, #8c1c13);
     margin: 25px;
 }
+
+.navegacion {
+    width: 1000px;
+    margin: auto;
+    background-color: #b6a19e;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    padding: 0% 2%;
+    align-items: center;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
  
 h1, h3{
     text-align: center;
+    margin: 2%;
 }
 
 div{
@@ -27,14 +56,6 @@ p{
     padding: 4px 30px;
 }
 
-#arriba{
-    display: block;
-    width: 100%;
-    justify-content: center;
-    float: left;
-    height: 138px;
-}
-
 .menu li a:hover {
     color:pink;
     transition: all 0.3s;
@@ -43,10 +64,6 @@ p{
 .menu li a{
     text-decoration: none;
     font-size: 18px;
-}
-
-ul{
-    position: absolute;
 }
 
 img{
