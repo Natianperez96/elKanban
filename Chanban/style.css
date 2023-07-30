@@ -1,0 +1,55 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to right, #bf4342, #8c1c13);
+    margin: 25px;
+}
+ 
+h1, h3{
+    text-align: center;
+}
+
+div{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 20px;
+    padding: 4px 30px;
+}
+
+#arriba{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    float: left;
+    height: 138px;
+}
+
+.menu li a:hover {
+    color:pink;
+    transition: all 0.3s;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul{
+    position: absolute;
+}
+
+img{
+    width:40%;
+    border-radius: 15px;
+}
